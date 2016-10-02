@@ -1,0 +1,3 @@
+http://example1.com:80/foo?query#id
+http://example2.com:80/foo?query#id
+http://example3.com:80/foo?query#id

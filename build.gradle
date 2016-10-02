@@ -1,0 +1,20 @@
+plugins {
+    id 'java' // Must be explicitly applied
+    id 'application'
+    id 'com.github.johnrengelman.shadow' version '1.2.3'
+}
+
+description = 'Two implementations of URL parsing'
+version = '1.0.0'
+
+mainClassName = 'urlparser.Main'
+sourceCompatibility = 1.7
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    // test dependencies
+    testCompile 'junit:junit:4.12'
+}
